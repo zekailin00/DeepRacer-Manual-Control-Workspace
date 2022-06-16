@@ -1,0 +1,12 @@
+[submodule "aws-deepracer-servo-pkg"]
+	path = aws-deepracer-servo-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-servo-pkg.git
+[submodule "aws-deepracer-interfaces-pkg"]
+	path = aws-deepracer-interfaces-pkg
+	url = https://github.com/aws-deepracer/aws-deepracer-interfaces-pkg.git
+[submodule "ros2-joystick-to-DeepRacer"]
+	path = ros2-joystick-to-DeepRacer
+	url = https://github.com/zekailin00/ros2-joystick-to-DeepRacer
+[submodule "manual_launcher"]
+	path = manual_launcher
+	url = https://github.com/jackykwok2024/manual_launcher.git
