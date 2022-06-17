@@ -5,6 +5,7 @@
 ```
 $ git clone git@github.com:zekailin00/DeepRacer-Manual-Control-Workspace.git
 $ cd DeepRacer-Manual-Control-Workspace
+$ git submodule update --init
 $ source /opt/ros/foxy/setup.bash
 $ colcon build
 $ . install/setup.bash
