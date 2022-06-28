@@ -20,3 +20,9 @@ $ colcon build
 $ . install/setup.bash
 $ ros2 launch manual_launcher manual_launcher.py
 ```
+## Clear disk space 
+```
+sudo su
+cd ~
+rm -rf ./.ros/log/
+```
