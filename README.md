@@ -26,3 +26,10 @@ sudo su
 cd ~
 rm -rf ./.ros/log/
 ```
+## .bashrc setup for DeepRacer
+```
+bash -c "echo Y > /sys/module/bluetooth/parameters/disable_ertm"
+rm -rf ~/.ros/log/
+source /opt/ros/foxy/setup.bash
+systemctl stop deepracer-core
+```
